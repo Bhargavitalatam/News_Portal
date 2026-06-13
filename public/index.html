@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseNews | Modern Digital Journalism</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="description" content="Explore PulseNews, the leading digital news portal bringing you premium articles on technology, science, agriculture, and culture.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Header with site logo and main navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="/articles" class="logo-link" id="logo-home-link" data-testid="logo-link">
+        <span class="logo-accent">Pulse</span>News
+      </a>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="/articles" class="nav-link active" id="nav-home-link">Home</a></li>
+          <li><a href="/articles" class="nav-link" id="nav-articles-link">Articles</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main view container where app.js renders different pages dynamically -->
+  <main id="app">
+    <div class="loader-container">
+      <div class="loader" aria-label="Loading content..."></div>
+    </div>
+  </main>
+
+  <!-- Footer, hidden initially to prevent layout shift during dynamic SPA rendering -->
+  <footer class="site-footer" id="site-footer" style="display: none;">
+    <div class="footer-container">
+      <p>&copy; 2026 PulseNews Media Group. All rights reserved.</p>
+      <div class="footer-meta">
+        <span class="footer-badge">Lighthouse Optimized</span>
+        <span class="footer-badge">100% Green Energy Delivery</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

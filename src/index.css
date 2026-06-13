@@ -1,0 +1,41 @@
+/* src/index.css */
+
+/* Premium dark theme with smooth gradients and glassmorphism */
+
+:root {
+  --bg-dark: hsl(210, 10%, 10%);
+  --bg-card: hsla(210, 10%, 15%, 0.85);
+  --text-primary: hsl(0, 0%, 95%);
+  --accent: hsl(200, 80%, 60%);
+  --transition: 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 2rem;
+}
+
+/* Global scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+  border-radius: 4px;
+}

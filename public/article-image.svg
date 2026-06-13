@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 338" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="40%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="600" height="338" fill="url(#gradient1)" />
+  <rect width="600" height="338" fill="url(#grid)" />
+  <circle cx="300" cy="169" r="100" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="15" />
+  <circle cx="300" cy="169" r="60" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="8" />
+  <path d="M-100,220 Q150,120 300,220 T700,220" fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="4" />
+  <path d="M-100,100 Q150,200 300,100 T700,100" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="2" />
+</svg>
