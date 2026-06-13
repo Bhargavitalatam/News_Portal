@@ -7,10 +7,9 @@
   "scripts": {
     "setup": "npm install && npm run dev",
     "start": "node server.js",
-    "dev": "vite",
+    "dev": "vite --port 5000",
     "build": "vite build",
-    "preview": "vite preview",
-    "test:performance:prod": "npm run build && npm run preview -- --port 4000 & npm run test:performance",
+    "preview": "vite preview --port 5000",
     "test:performance": "node tests/performance/lighthouse-articles.test.js && node tests/performance/lighthouse-detail.test.js",
     "test:all": "npm install && npm run build && node tests/run-all.js"
   },

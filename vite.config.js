@@ -7,6 +7,10 @@ export default defineConfig({
     port: 5000,
     strictPort: true,
   },
+  preview: {
+    port: 5000,
+    strictPort: true,
+  },
   build: {
     outDir: 'dist',
   },
